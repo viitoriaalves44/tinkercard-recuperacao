@@ -1,0 +1,22 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Markdown
+*.md text eol=lf
+
+# Arduino
+*.ino text eol=lf
+*.h text eol=lf
+*.cpp text eol=lf
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Documents
+*.pdf binary
+
+# Ensure UTF-8 friendly behavior
+*.md linguist-language=Markdown
